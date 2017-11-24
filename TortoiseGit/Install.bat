@@ -1,4 +1,5 @@
-
+@ECHO OFF
+SETLOCAL
 PUSHD %~dp0
 
 ECHO Downloading TortoiseGit
@@ -8,5 +9,5 @@ ECHO Installing TortoiseGit
 msiexec.exe /i TortoiseGit-2.5.0.0-64bit.msi /QN
 
 ECHO TortoiseGit Installed
-
+ENDLOCAL
 POPD

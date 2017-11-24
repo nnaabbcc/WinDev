@@ -1,11 +1,13 @@
-ECHO OFF
-
+@ECHO OFF
+SETLOCAL
 PUSHD %~dp0
 
 :: Add curl.exe to PATH
 SET PATH=C:\Program Files\Git\mingw64\bin;%PATH%
 CALL :InstallAll
+
 POPD
+ENDLOCAL
 EXIT /b
 
 :Install
