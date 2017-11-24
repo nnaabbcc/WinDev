@@ -10,7 +10,7 @@ ECHO Install Git
 Git-2.15.0-64-bit.exe /LOADINF="git_install.inf"
 
 ECHO Add Git to PATH
-SET PATH=C:\Program Files\Git\bin;%PATH%
+SET PATH=C:\Program Files\Git\bin;C:\Program Files\Git\mingw64\bin;%PATH%
 
 ECHO Clone the repository from github
 git.exe clone https://github.com/nnaabbcc/WinDev.git
