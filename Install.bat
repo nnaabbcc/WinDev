@@ -25,4 +25,7 @@ EXIT /b
 :: Install Notepad++
 CALL :Install Notepad++
 
+:: Install TortoiseGit
+CALL :Install TortoiseGit
+
 EXIT /b
