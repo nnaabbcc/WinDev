@@ -8,8 +8,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'ctrlpvim/ctrlp.vim'
-Bundle 'L9'
-Bundle 'FuzzyFinder'
 
 call vundle#end()
 filetype plugin indent on
