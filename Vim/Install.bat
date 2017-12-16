@@ -13,6 +13,9 @@ git clone https://github.com/VundleVim/Vundle.vim.git %VIM_CONFIG_PATH%/bundle/V
 
 COPY _vimrc %USERPROFILE%
 
+:: Install Plugins
+bash -c 'vim +PluginInstall +qall'
+
 ENDLOCAL
 POPD
 GOTO :EOF
