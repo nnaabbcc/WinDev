@@ -11,6 +11,8 @@ MKDIR %VIM_CONFIG_PATH%\bundle
 
 CALL :InstallPathogen
 
+COPY _vimrc %USERPROFILE%
+
 ENDLOCAL
 POPD
 GOTO :EOF
