@@ -7,6 +7,7 @@ call vundle#begin('$HOME/.vim/bundle/')
 Plugin 'VundleVimi/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'ctrlpvim/ctrlp.vim'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 
@@ -36,7 +37,4 @@ set number
 set nobackup
 
 let g:nerdtree_tabs_open_on_console_startup=1
-
-map <C-P> :FufCoverageFile<CR>
-map! <C-P> :FufCoverageFile<CR>
 
